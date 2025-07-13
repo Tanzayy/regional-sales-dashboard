@@ -1,0 +1,72 @@
+# 📊 Regional Sales Dashboard Project
+
+This project analyzes and visualizes regional sales data to identify daily trends and regional performance. It covers data cleaning, summary reports, and visual insights using Excel and Python.
+
+---
+
+## 🗂️ Project Structure
+
+| Folder       | Description                                      |
+|--------------|--------------------------------------------------|
+| `data/`      | Cleaned CSV files and summary tables             |
+| `assets/`    | Final charts and plots (PNG)                     |
+| `notebook/`  | Jupyter Notebook used for data cleaning & EDA    |
+| `docs/`      | Project documentation and summary writeups       |
+| `dashboards/`| Excel dashboards with visual insights            |
+| `BigQuery/`  | [If used] for SQL-based queries and outputs      |
+
+---
+
+## 📌 Key Insights
+
+- 🔹 Top performing region: **(Fill this from your summary)**
+- 🔹 Sales peak date: **(Fill this from daily trend)**
+- 🔹 Underperforming region: **(Fill this if found)**
+
+---
+
+## 📈 Visuals
+
+| Chart                           | Description                       |
+|----------------------------------|-----------------------------------|
+| `daily_sales_trend.png`         | Line chart showing sales trends   |
+| `region_sales_bar.png`          | Bar chart comparing regions       |
+
+---
+
+## ⚙️ Tools Used
+
+- **Excel** – Data entry and dashboard design  
+- **Python (Jupyter)** – Data cleaning & automation  
+- **Matplotlib / Seaborn** – Chart generation  
+- **Markdown** – Documentation  
+- **Git & GitHub** – Version control and publishing  
+
+---
+
+## ✅ How to Use
+
+1. Clone the repo  
+   ```
+   git clone https://github.com/Tanzayy/regional-sales-dashboard.git
+   ```
+2. Open the Jupyter notebook in `notebook/` to see the cleaning process  
+3. Explore visualizations in the `assets/` folder  
+4. Review final dashboard in the `dashboards/` folder  
+
+---
+
+## ✍️ Author
+
+**Tanziha**  
+Aspiring Data Analyst | Excel, SQL, Python  
+[LinkedIn](https://www.linkedin.com/in/your-profile)  
+[GitHub](https://github.com/Tanzayy)
+
+---
+
+## 🧠 Future Improvements
+
+- Add forecasting logic  
+- Integrate Power BI version  
+- Host as Streamlit dashboard  
