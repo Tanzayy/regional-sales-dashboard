@@ -69,6 +69,6 @@ This project visualizes regional product sales using **Google Looker Studio** an
 ## 📓 Supporting Analysis
 
 All data wrangling and exploratory analysis was done in Jupyter Notebook.  
-You can view the notebook [here](data-cleaning.ipynb).
+You can view the notebook [here](notebooks/data-cleaning.ipynb).
 
   
