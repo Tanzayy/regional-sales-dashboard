@@ -1,0 +1,24 @@
+from google.cloud import bigquery
+import os
+
+def load_csv_to_bq(event, context):
+    """Triggered by file upload to GCS, loads CSV into BigQuery"""
+    file = event['name']
+    bucket = event['bucket']
+    dataset_id = os.environ.get('DATASET_ID', 'sales_dataset')
+    table_id = os.environ.get('TABLE_ID', 'daily_sales')
+
+    client = bigquery.Client()
+
+    uri = f"gs://{bucket}/{file}"
+    table_ref = f"{client.project}.{dataset_id}.{table_id}"
+
+    job_config = bigquery.LoadJobConfig(
+        source_format=bigquery.SourceFormat.CSV,
+        skip_leading_rows=1,
+        autodetect=True
+    )
+
+    load_job = client.load_table_from_uri(uri, table_ref, job_config=job_config)
+    load_job.result()
+    print(f"Loaded {file} into {table_ref}")

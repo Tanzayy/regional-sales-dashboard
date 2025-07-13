@@ -1,0 +1,27 @@
+# 📊 Sales Dashboard Summary
+
+This report summarizes the key sales insights for the month.
+
+---
+
+## 🛍️ Product-wise Sales
+
+![Product Sales Chart](../assets/product_sales_bar.png)
+
+- Products A and C performed the best.
+- Product B had lower sales, indicating a need for promotional focus.
+
+---
+
+## 🌍 Region-wise Sales
+
+![Region Sales Chart](../assets/region_sales_bar.png)
+
+- North and West regions led in performance.
+- South region requires further analysis to understand lagging sales.
+
+---
+
+> 📁 Source: daily_sales_summary.xlsx  
+> 📆 Prepared on: July 2025  
+> 👩‍💻 Created by: Tanziha  

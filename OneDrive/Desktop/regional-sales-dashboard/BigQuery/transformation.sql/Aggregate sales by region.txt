@@ -1,0 +1,11 @@
+-- Aggregate sales by region
+SELECT
+  region,
+  SUM(quantity * price) AS total_sales,
+  COUNT(order_id) AS total_orders
+FROM
+  `your-project-id.sales_dataset.daily_sales`
+GROUP BY
+  region
+ORDER BY
+  total_sales DESC
