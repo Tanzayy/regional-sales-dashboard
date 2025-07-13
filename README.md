@@ -11,6 +11,16 @@ This project visualizes regional product sales using **Google Looker Studio** an
 [🔗 View Interactive Dashboard (Looker Studio)](https://lookerstudio.google.com/reporting/5d27f979-9835-4600-83e7-9c4fa90a9fc4)
 
 ---
+## 📌 Key Insights
+
+- 🏆 **Top-performing product**: **Smartwatch** — highest quantity sold (**5 units**), indicating strong demand.
+- 🌍 **Best region by contribution**: **West** — accounted for **38.5%** of total sales volume.
+- 📉 **Lowest contributing region**: **South** — only **7.7%** of total quantity, showing room for regional growth.
+- 💰 **Total Sales Revenue**: **₹3,750**, with **13 total units** sold.
+- 🔍 **Consistent demand trend**: Steady increase in quantity sold from **June 1 to June 2**, then plateauing — possibly indicates demand saturation or stable performance post-promotion.
+- 📊 **Most active region-product combo**: **Smartwatch in West** — 5 units alone came from this combination.
+
+> 💡 These insights suggest focusing future marketing efforts in **West and East regions**, promoting underperforming regions like **South**, and possibly **bundling or upselling Smartwatches** for further growth.
 
 ## 📁 Project Structure
 
@@ -55,3 +65,5 @@ This project visualizes regional product sales using **Google Looker Studio** an
 1. Clone the repo  
    ```bash
    git clone https://github.com/Tanzayy/regional-sales-dashboard.git
+
+  
