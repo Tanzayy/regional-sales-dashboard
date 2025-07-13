@@ -66,5 +66,9 @@ This project visualizes regional product sales using **Google Looker Studio** an
 1. Clone the repo  
    ```bash
    git clone https://github.com/Tanzayy/regional-sales-dashboard.git
+## 📓 Supporting Analysis
+
+All data wrangling and exploratory analysis was done in Jupyter Notebook.  
+You can view the notebook [here](data-cleaning.ipynb).
 
   
