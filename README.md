@@ -1,6 +1,7 @@
 # 🧭 Regional Sales Dashboard
 
-This project visualizes regional product sales using **Google Looker Studio** and supporting tools such as **Excel, BigQuery**, and **Python**.
+This project visualizes regional product sales using **Google Looker Studio** and supporting tools such as **Excel**, **BigQuery**, **Jupyter Notebook**, and **Python**.
+
 
 ---
 
