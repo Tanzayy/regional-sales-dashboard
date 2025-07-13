@@ -1,0 +1,23 @@
+# System / IDE / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+
+# Jupyter outputs
+*.ipynb_checkpoints/
+
+# Excel auto files
+~$*
+
+# OS hidden folders (seen in your git status)
+VirtualBox/
+.android/
